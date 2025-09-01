@@ -32,11 +32,11 @@ int main() {
      if (daysLate <= 0) {
         fine = 0;
          } else if (daysLate <= 5) {
-        fine = daysLate * 1;
+        fine = daysLate ;
          } else if (daysLate <= 10) {
              fine = 10 + ((daysLate - 5));
               } else {
-                fine = 10 +10 + ((daysLate - 10)*5);}
+                fine = 20 + ((daysLate - 10)*5);}
                   printf("The fine for %d days late is Rs %d", daysLate, fine);
 
     return 0;
